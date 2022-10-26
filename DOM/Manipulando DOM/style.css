@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(115, 190, 240);
+    font-family: ubuntu;
+    font-size: 20px;
+}
+.cotainer{
+    display: flex;
+    width: 40%;
+    min-width: 250px;
+    position: absolute;
+    min-height: 60px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+}
+form button.homeData{
+    height: 50px;
+}
+
+p{
+    width: 300px;
+}
+
+input{
+    width: 75%;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;   
+}
+
+input:hover{
+    border: 4px solid blue;
+}
+
+.add-button{
+    
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+li button{
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #e83a3a;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
